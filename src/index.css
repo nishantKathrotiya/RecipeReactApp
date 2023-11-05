@@ -1,0 +1,106 @@
+/* write your css here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,300;1,400&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.cardContainer{
+    width:20vw !important;
+    height: max-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(98, 95, 95, 0.374);
+    border: 1px solid rgba(98, 95, 95, 0.374);
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    white-space: wrap;
+}
+.cardImage{
+    width: 98%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.cardBucket{
+    width: 99vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,30vw);
+    justify-content: center;
+    white-space: wrap;
+}
+.Span{
+    color:blue;
+}
+.notIn{
+
+    height: fit-content;
+    width: 80%;
+    align-items: center;
+    margin: 2rem;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    background: #ff0000;
+    border: none;
+    font-weight: 600;
+}
+.cardContainer h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+@media (max-width:900px){
+    .cardBucket{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .cardContainer{
+        width: 80vw !important;
+    }
+}
+
+.container{
+    width: 99vw;
+}
+.formDiv{
+    margin-top: 50px;
+    width: 99vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.formDiv input{
+    padding: 0.25rem 0.5rem;
+}
+.formDiv button{
+    padding: 0.5rem 1rem;
+}
+.noData{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.suppurt{
+    font-weight: 500;
+}
